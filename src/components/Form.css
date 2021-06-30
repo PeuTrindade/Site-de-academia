@@ -1,0 +1,50 @@
+.form-container {
+    height: 60vh;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-txt {
+    text-align: center;
+    font-family: arial;
+    padding-top: 2%;
+    font-size: 25px;
+    color: orangered;
+}
+.form {
+    background-color: orangered;
+    height: 80%;
+    width: 80%;
+}
+input {
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width:90%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    outline: none;
+}
+.form-button {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+    left:50%;
+    transform: translateX(-49.5%);
+    background-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.form-button:hover{
+    background-color: rgb(224, 224, 224);
+    border: 2px solid rgb(224, 224, 224);
+}
+#b {
+   text-align: center;
+   margin-top: 20px;
+   color:rgb(255, 255, 255);
+}
